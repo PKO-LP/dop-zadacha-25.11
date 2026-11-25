@@ -10,7 +10,7 @@ while True:
     komanda = input("Введите команду: ")
     
     if komanda == "1":
-        vyidano = vyidano + 1
+        vyidano = vyidano + 2
         print("Книга выдана")
     elif komanda == "2":
         print("Выдано книг:", vyidano)
@@ -19,7 +19,7 @@ while True:
         print("Счётчик сброшен до 0")
     elif komanda == "4":
         if vyidano > 0:
-            vyidano = vyidano - 1
+            vyidano = vyidano - 4
             print("Книга возвращена")
         else:
             print("Нет выданных книг")
